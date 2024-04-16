@@ -1,0 +1,22 @@
+
+@media (max-width: 930px) {
+    .nav-link.text-light {
+        display: none;
+    }
+}
+
+
+#AJCE-logo {
+    filter: invert(16%) sepia(46%) saturate(7028%) hue-rotate(237deg) brightness(64%) contrast(127%);
+    max-width: 300px;
+    max-height: 50px;
+    width: 60vw;
+}
+
+#IEEE-logo {
+    filter: invert(100%) sepia(45%) saturate(2%) hue-rotate(151deg) brightness(103%) contrast(100%);
+    max-width: 100px;
+    max-height: 30px;
+    width: 60vw;
+}
+

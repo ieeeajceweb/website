@@ -3,12 +3,6 @@
     margin: 0 80px;
 }
 
-@media (max-width: 650px) {
-    .logos img {
-        margin: 0 50px;
-    }
-}
-
 @keyframes slide {
     from {
         transform: translateX(0);
@@ -56,4 +50,17 @@
 
 #logo-slide:hover .logos {
     animation-play-state: paused;
+}
+
+
+@media (max-width: 650px) {
+    .logos img {
+        margin: 0 50px;
+    }
+
+    #logo-slide::before,
+    #logo-slide::after {
+    
+    width: 100px;
+}
 }

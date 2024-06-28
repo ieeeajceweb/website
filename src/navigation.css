@@ -20,3 +20,8 @@
     width: 60vw;
 }
 
+nav {
+    display: sticky;
+    top: 0;
+}
+

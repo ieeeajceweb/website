@@ -1,0 +1,81 @@
+@font-face {
+    font-family: neu;
+    src: url(../font/NeueHaasDisplayMediu.ttf);
+}
+
+
+#loader {
+    height: 100vh;
+    width: 100vw;
+    z-index: 999;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 0;
+}
+
+#loader-text-wrapper {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#loader-images-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin: 0 50px;
+}
+
+#loader-images-wrapper img {
+    filter: invert(100%) sepia(0%) saturate(7498%) hue-rotate(258deg) brightness(96%) contrast(103%);
+    margin: 20px 0;
+    height: 50px;
+}
+
+#loader h1 {
+    font-family: neu;
+    background: linear-gradient(to right, orange, orangered);
+    color: transparent;
+    -webkit-background-clip: text;
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+    animation-name: load;
+    animation-duration: 0.9s;
+    animation-timing-function: linear;
+    animation-delay: 0.7s;
+
+}
+
+#loader h1:nth-child(2) {
+    animation-delay: 1.5s;
+}
+
+#loader h1:nth-child(3) {
+    animation-delay: 2.3s;
+}
+
+@keyframes load {
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+    
+}

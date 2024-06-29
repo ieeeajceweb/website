@@ -32,6 +32,7 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
+    "locomotive-scroll": "^4.1.4",
     "swiper": "^11.1.4",
     "typed.js": "^2.1.0"
   }

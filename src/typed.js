@@ -4,7 +4,7 @@ import Typed from 'typed.js';
 
 
 const typed = new Typed('#element', {
-    strings: ['We\'ve hosted many exciting events', ' We\'re more than just a student body, we are a family.'],
+    strings: ['We\'ve hosted many exciting events ^1000', ' We\'re more than just a student body, we are a family.'],
     typeSpeed: 70,
     backSpeed: 30,
     loop: true

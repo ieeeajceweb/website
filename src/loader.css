@@ -43,6 +43,7 @@
     background: linear-gradient(to right, orange, orangered);
     color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
     position: absolute;
     font-size: 50px;
     opacity: 0;

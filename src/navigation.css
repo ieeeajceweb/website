@@ -1,6 +1,6 @@
 
 @media (max-width: 930px) {
-    .nav-link.text-light {
+    #navigation .nav-link.text-light {
         display: none;
     }
 }

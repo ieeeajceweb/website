@@ -6,6 +6,7 @@ import './navigation.css';
 import './member-count.css';
 import './logo-slide.css';
 import './slider.css';
+import './footer.css'
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 

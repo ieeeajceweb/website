@@ -12,3 +12,4 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 // JS imports
 import './slider.js';
+import './typed.js';

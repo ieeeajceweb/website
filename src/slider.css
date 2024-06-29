@@ -59,3 +59,50 @@
     stroke-dasharray: 125.6;
     transform: rotate(-90deg);
   }
+
+
+  #view-more-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+#view-more-wrapper h4 {
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #000000bb;
+    transition: all ease 0.4s;
+    background-color: #3080d6;
+    position: relative;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+#view-more-wrapper h4::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+}
+
+#view-more-wrapper h4:hover::after {
+    bottom: 0;
+    border-radius: 0;
+}
+
+#view-more-wrapper h4 a {
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    z-index: 9;
+}
+
+#view-more-wrapper h4:hover a {
+    color: #fff;
+}

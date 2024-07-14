@@ -115,3 +115,7 @@
 #view-more-wrapper h4:hover a {
     color: #fff;
 }
+
+#events-this-year > .container-lg {
+  overflow: hidden;
+}

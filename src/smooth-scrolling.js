@@ -4,7 +4,7 @@ const navigation = document.querySelector('#navigation');
 
 const scroll = new LocomotiveScroll({
     el: document.querySelector('#smooth-scrolling'),
-    smooth: true,
+    smooth: false,
     multiplier: 2
 });
 

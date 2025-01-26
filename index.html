@@ -18,7 +18,7 @@
 </head>
 <body>
 
-  <div id="loader" class="bg-black text-light">
+  <div id="loader" class="bg-black text-light d-none">
     <div id="loader-images-wrapper">
       <img src="./img/logo/IEEE.svg">
       <img src="./img/logo/AJCE.svg">
@@ -114,13 +114,19 @@
     
       <!-- End of Navigation -->
       <!-- Carousel -->
-      <section id="carousel" style="height: 800px;">
-    
-    
+      <section id="carousel" class="mb-5 position-relative text-light">
+        <img src="./img/carousel/main-1.jpg" alt="carousel image" class="mb-5" style="width: 100vw; height: 90vh; object-fit: cover;">
+        <div class="content position-absolute top-0 d-flex align-items-center justify-content-center flex-column" style="width: 100vw; height: 90vh; object-fit: cover; background: rgba(0, 0, 0, 0.199)">
+          <div class="text d-flex flex-column align-items-start gap-5">
+            <h1 class="fw-bold display-1 text-light">IEEE SB AJCE</h1>
+            <p style="max-width: 800px;" class="h6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis eaque, eos tempore saepe voluptate facilis praesentium debitis ullam labore quae excepturi unde officiis quos explicabo numquam? Labore exercitationem recusandae nostrum!</p>
+            <a class="btn btn-primary d-inline fw-bold px-5 py-2">Join us</a>
+          </div>
+        </div>
       </section>
       <!-- End of Carousel -->
       <!-- Typing animation text -->
-      <section id="typing-animation-text">
+      <section id="typing-animation-text mb-5">
         <div class="conatiner-lg">
           <div class="typing-wrapper d-flex justify-content-center align-items-end">
             <span id="element" class="display-3 fw-normal text-primary text-center ms-3"></span>
